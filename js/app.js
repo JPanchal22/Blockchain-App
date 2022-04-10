@@ -104,7 +104,7 @@ function updateTasksCount() {
 	console.log('updateTaskCount(): The number of task are ' + taskCount);
 	// Set the count to the taskCount id element //
 	let count = document.getElementById('taskCount');
-	count.innerText = taskCount + " Task";
+	count.innerText = taskCount + " Task(s)";
 }
 
 
